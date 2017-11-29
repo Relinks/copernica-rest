@@ -1,0 +1,21 @@
+{
+  "name": "relinks/copernica-rest",
+  "description": "PHP library for Copernica REST API",
+  "type": "library",
+  "require": {
+    "php": "^7.0"
+  },
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Koen van der Ven",
+      "email": "koen.vander.ven@rorix.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Copernica\\": "src/"
+    }
+  }
+}
