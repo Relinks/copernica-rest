@@ -1,4 +1,4 @@
-copernica-test
+copernica-rest
 ===
 PHP library for the Copernica REST API.
 
