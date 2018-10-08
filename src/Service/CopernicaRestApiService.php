@@ -39,4 +39,15 @@ class CopernicaRestApiService extends AbstractCopernicaRestApiService
     {
         return $this->post(sprintf('database/%d/profiles', $databaseNumber), $data);
     }
+
+    /**
+     * @param int   $databaseNumber
+     * @param array $data
+     *
+     * @return mixed
+     */
+    public function putProfile(int $databaseNumber, array $data)
+    {
+        return $this->put(sprintf('database/%d/profiles', $databaseNumber), $data);
+    }
 }
