@@ -47,7 +47,7 @@ class CopernicaRestApiService extends AbstractCopernicaRestApiService
      *
      * @return mixed
      */
-    public function putProfile(int $databaseNumber, array $data, $parameters)
+    public function putProfile(int $databaseNumber, array $data, array $parameters)
     {
         return $this->put(sprintf('database/%d/profiles', $databaseNumber), $data, $parameters);
     }
