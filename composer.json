@@ -3,7 +3,8 @@
   "description": "PHP library for Copernica REST API",
   "type": "library",
   "require": {
-    "php": "^7.0"
+    "php": "^7.4 || ^8.0",
+    "ext-curl": "*"
   },
   "license": "GPL-3.0",
   "authors": [

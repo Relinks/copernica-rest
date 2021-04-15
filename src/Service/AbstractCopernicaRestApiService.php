@@ -10,15 +10,8 @@ namespace Copernica\Service;
  */
 class AbstractCopernicaRestApiService
 {
-    /**
-     * @var string
-     */
-    protected $token;
-
-    /**
-     * @var string
-     */
-    protected $url = 'https://api.copernica.com/v1';
+    protected string $token;
+    protected string $url = 'https://api.copernica.com/v1';
 
     /**
      * CopernicaRestApi constructor.
